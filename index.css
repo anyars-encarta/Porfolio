@@ -10,15 +10,17 @@
     background-color: #3c3a39;
   }
 
-  .my-logo {
+  .header a {
     font-family: 'Roboto', sans-serif;
     color: #fff;
-    font-size: 50px;
+    text-decoration: none;
+    font-size: 30px;
     margin-left: 10%;
   }
 
-  .header a {
+  .header img {
     margin-right: 10%;
+    cursor: pointer;
   }
 
   .headline {
