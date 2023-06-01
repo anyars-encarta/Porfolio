@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @media only screen and (min-width: 375px) and (max-width: 768px) {
-
   .header {
     display: flex;
     flex-direction: row;
@@ -17,32 +16,23 @@
     font-size: 50px;
     margin-left: 10%;
   }
+
   .header a {
     margin-right: 10%;
-  }
-  
-  .lines {
-    margin-right: 5%;
-    color: #fff;
-    /*border: 2px solid #ACB7C3;*/
-    gap: 4px;
-    background-color: transparent;
-    text-decoration: none;
-    list-style-type: none;
   }
 
   .headline {
     display: flex;
     flex-direction: column;
     align-items: left;
-    /*justify-content: space-between;*/
+
+    /* justify-content: space-between; */
     background-color: #3c3a39;
     margin-bottom: -8%;
     background-image: url("./logos/Background.png");
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 100px 300px;
-    background-color: #1c1a19;
   }
 
   .headline h1 {
