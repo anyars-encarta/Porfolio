@@ -41,7 +41,11 @@
 <!-- INTRO -->
 # 📖About Me <a name="about-me"></a>
 
-> This is my Portfolio
+> My name is Anyars Yussif. I am a Software Developer. 
+I can help you build a product , feature or website Look 
+through some of my work and experience! If you like what 
+you see and have a project you need coded, don't hesitate 
+to contact me.
 
 ## Tech Stack <a name="tech-stack"></a>
 ### My Recent Works <a name="my-recent-works"></a>
