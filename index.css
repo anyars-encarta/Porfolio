@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @media only screen and (min-width: 375px) and (max-width: 768px) {
   .header {
@@ -8,6 +10,14 @@
     align-items: center;
     justify-content: space-between;
     background-color: #3c3a39;
+    width: 100%;
+  }
+
+  .about-me p,
+  button,
+  h3,
+  a {
+    color: rgb(255, 255, 255);
   }
 
   .header a {
@@ -54,7 +64,7 @@
     margin-top: -3%;
   }
 
-  .headline .about-me {
+  .headline .about-myself {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: #fff;
@@ -78,8 +88,373 @@
     margin-left: 10%;
   }
 
+  .works-centered img {
+    width: 100%;
+  }
+
+  .attach-icon img {
+    float: left;
+    width: 5%;
+    height: 5%;
+    margin-right: 2%;
+  }
+
   .social a img {
     width: 19.99px;
     height: 19.96px;
+  }
+
+  .extra {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .works-centered {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 50%;
+  }
+
+  .works-title {
+    font-family: 'Crete Round', serif;
+    font-size: 400%;
+    margin-top: -10%;
+    text-align: center;
+  }
+
+  .works-centered hr {
+    list-style: solid;
+    width: 100%;
+    color: #212121;
+    margin-top: 4%;
+    margin-bottom: 27%;
+  }
+
+  .works-centered .multi-stories {
+    font-family: 'Crete Round', serif;
+    font-size: 350%;
+    text-align: left;
+  }
+
+  .works-centered p {
+    font-family: 'Inter', sans-serif;
+    font-size: 200%;
+    text-align: left;
+    margin-top: -3%;
+    padding-bottom: 15px;
+  }
+
+  .works-centered ul {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    list-style: none;
+    margin-bottom: 60px;
+  }
+
+  .works-centered a {
+    text-decoration: none;
+    border: solid #8b8282d3;
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 200%;
+    margin: 13px;
+    color: #1c1a19;
+  }
+
+  .list-x a {
+    text-decoration: none;
+    border: solid #8b8282d3;
+    padding: 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 200%;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.24);
+  }
+
+  .lists a {
+    text-decoration: none;
+    font-size: 250%;
+  }
+
+  .project-list a:hover {
+    background-color: #ff6b00;
+  }
+
+  .project-list .start-list {
+    margin-left: -23%;
+  }
+
+  .project-list .second-list {
+    margin-left: -20%;
+  }
+
+  .project-list .third-list {
+    margin-left: -8%;
+  }
+
+  .works-centered button {
+    display: flex;
+    align-items: left;
+    font-size: 200%;
+    margin-left: 0%;
+    margin-right: 60%;
+    padding: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: #ff6b00;
+    font-weight: bold;
+    color: white;
+  }
+
+  .print-data button {
+    border: none;
+    background-color: #ff6b00;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    font-size: 200%;
+  }
+
+  .interesting button {
+    margin-left: 30%;
+    margin-right: 30%;
+    border: none;
+    cursor: pointer;
+    background-color: #ff6b00;
+    font-weight: bold;
+    color: white;
+    font-size: 200%;
+    padding: 4% 4% 4% 4%;
+    margin-bottom: 22%;
+  }
+
+  .about-me button {
+    border: none;
+    background-color: #ff6b00;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    font-size: 200%;
+    margin-left: 8%;
+    margin-right: 50%;
+    padding: 4% 4% 4% 4%;
+    margin-bottom: 70%;
+  }
+
+  .works-centered button:hover {
+    background-color: white;
+    color: black;
+    border: solid;
+  }
+
+  .print-data {
+    display: grid;
+    height: 100vh;
+    background-image: url("./logos/Professional Printing Data.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 5%;
+  }
+
+  .print-data h3 {
+    font-family: 'Crete Round', serif;
+    color: white;
+    font-size: 400%;
+    text-align: left;
+    margin-top: 24%;
+    margin-left: 5%;
+  }
+
+  .print-data p {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 200%;
+    margin-top: -15%;
+    margin-left: 5%;
+  }
+
+  .print-data .list-x {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: -25px;
+  }
+
+  .list-x .start-list-x {
+    margin-left: -7%;
+  }
+
+  .list-x .second-list-x {
+    margin-left: 15%;
+  }
+
+  .list-x .third-list-x {
+    margin-left: 20%;
+  }
+
+  .print-data button:hover {
+    background-color: white;
+    color: black;
+    border: solid;
+  }
+
+  .about-me {
+    background-color: rgba(28, 26, 25, 1);
+    margin-top: 33%;
+  }
+
+  .background-holder {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./logos/About Me.png");
+    background-repeat: no-repeat;
+    background-size: 300px 500px;
+    background-position: right bottom;
+  }
+
+  .about-me h2 {
+    color: rgba(255, 107, 0, 1);
+    font-size: 800%;
+    font-family: 'Crete Round', serif;
+    text-align: center;
+    padding-top: 35%;
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  .about-me p {
+    font-family: 'Inter', sans-serif;
+    font-size: 200%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: -10%;
+    margin-bottom: 8%;
+  }
+
+  .about-me button:hover {
+    background-color: white;
+    color: black;
+    border: solid;
+    cursor: pointer;
+  }
+
+  .about-me hr {
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 30%;
+  }
+
+  .lists {
+    padding-bottom: 20%;
+  }
+
+  .lists li {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 6%;
+  }
+
+  .lists h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 300%;
+    text-align: center;
+  }
+
+  .attach-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .interesting {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  .interesting h4 {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 350%;
+    margin-bottom: 20%;
+  }
+
+  .interesting input,
+  textarea {
+    font-family: 'Inter', sans-serif;
+  }
+
+  .interesting input {
+    font-size: 150%;
+    border: none;
+    margin-bottom: 2%;
+    width: 100%;
+  }
+
+  .interesting .end-name {
+    margin-bottom: 10%;
+    border-color: rgba(219, 216, 215, 0.904);
+  }
+
+  .interesting .end-address {
+    margin-bottom: 7%;
+    border-color: rgba(219, 216, 215, 0.904);
+  }
+
+  .interesting .text-area {
+    font-size: 150%;
+    font-style: italic;
+    background-color: #fbf8f7;
+    width: 100%;
+    border: none;
+    margin-bottom: 5%;
+  }
+
+  .interesting button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+    width: ;
+  }
+
+  .interesting .end-page {
+    border-color: rgba(219, 216, 215, 0.904);
+    margin-bottom: 7%;
+    width: 100%;
+  }
+
+  .footer ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12%;
+    margin-bottom: 10%;
+  }
+
+  .footer li {
+    margin-right: 0%;
+    color: #505f79;
+    margin-left: 8%;
+    padding-left: -4%;
+  }
+
+  .footer a img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer hr {
+    margin-left: 30%;
+    margin-right: 30%;
+    border-color: black;
+    border-top: 5px solid;
+    border-radius: 60px 60px 60px 60px;
   }
 }
