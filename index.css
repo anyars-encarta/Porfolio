@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: #3c3a39;
-    width: 100%;
+    width: 375px;
   }
 
   .about-me p,
@@ -24,15 +24,15 @@
     font-family: 'Roboto', sans-serif;
     color: #fff;
     text-decoration: none;
-    font-size: 25px;
-    margin-left: 10%;
+    font-size: 18px;
+    margin-left: 20px;
   }
 
   .header img {
-    margin-right: 10%;
+    margin-right: 20px;
     cursor: pointer;
-    width: 8%;
-    height: 8%;
+    width: 30px;
+    height: 20px;
   }
 
   .headline {
@@ -40,11 +40,13 @@
     flex-direction: column;
     align-items: left;
     background-color: #1c1a19;
-    margin-bottom: -8%;
+    margin-bottom: -8px;
     background-image: url("./logos/Background.png");
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 100px 300px;
+    width: 375px;
+    height: 750px;
   }
 
   .headline h1 {
@@ -52,44 +54,47 @@
     font-size: 45px;
     color: #ff6b00;
     width: 250px;
-    padding-top: 30%;
-    margin-left: 10%;
+    padding-top: 30px;
+    margin-left: 20px;
   }
 
   .headline h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #fff5e1;
-    margin-left: 10%;
-    margin-top: -3%;
+    margin-left: 20px;
+    margin-top: -3px;
   }
 
   .headline .about-myself {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -10px;
   }
 
   .social {
     display: flex;
-    padding-bottom: 30%;
+    padding-bottom: 30px;
     list-style-type: none;
   }
 
   .social li {
     margin-right: 5px;
     color: #505f79;
-    margin-left: 5%;
+    margin-left: 20px;
   }
 
   .social .init-icon {
-    margin-left: 10%;
+    margin-left: -20px;
   }
 
   .works-centered img {
-    width: 100%;
+    width: 327px;
+    height: 237px;
+    margin-left: 30px;
   }
 
   .attach-icon img {
@@ -104,22 +109,20 @@
     height: 19.96px;
   }
 
-  .extra {
-    margin-left: 6%;
-    margin-right: 6%;
-  }
-
   .works-centered {
     display: inline-flex;
     flex-direction: column;
     margin-top: 50%;
+    width: 375px;
   }
 
   .works-title {
     font-family: 'Crete Round', serif;
-    font-size: 400%;
+    font-size: 40px;
     margin-top: -10%;
     text-align: center;
+    margin-left: 0;
+    justify-content: center;
   }
 
   .works-centered hr {
@@ -130,18 +133,22 @@
     margin-bottom: 27%;
   }
 
-  .works-centered .multi-stories {
+  .multi-stories {
     font-family: 'Crete Round', serif;
-    font-size: 350%;
+    font-size: 32px;
+    font-weight: 400;
     text-align: left;
+    margin-left: 10px;
   }
 
   .works-centered p {
     font-family: 'Inter', sans-serif;
-    font-size: 200%;
+    font-size: 16px;
     text-align: left;
-    margin-top: -3%;
+    margin-top: -3px;
     padding-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .works-centered ul {
@@ -155,9 +162,9 @@
   .works-centered a {
     text-decoration: none;
     border: solid #8b8282d3;
-    padding: 30px;
+    padding: 500px, 100px, 100px, 100px;
     font-family: 'Inter', sans-serif;
-    font-size: 200%;
+    font-size: 15px;
     margin: 13px;
     color: #1c1a19;
   }
@@ -167,14 +174,18 @@
     border: solid #8b8282d3;
     padding: 18px;
     font-family: 'Inter', sans-serif;
-    font-size: 200%;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    width: 43px;
+    height: 20px;
     color: #fff;
     background-color: rgba(255, 255, 255, 0.24);
   }
 
   .lists a {
     text-decoration: none;
-    font-size: 250%;
+    font-size: 22px;
   }
 
   .project-list a:hover {
@@ -182,29 +193,43 @@
   }
 
   .project-list .start-list {
-    margin-left: -23%;
+    margin-left: -30px;
+    margin-right: 10px;
+    width: 200px;
+    height: 40px;
+    padding: 10px 12px 10px 12px;
   }
 
   .project-list .second-list {
-    margin-left: -20%;
+    margin-left: 10px;
+    margin-right: 30px;
+    width: 67px;
+    height: 40px;
+    padding: 10px 12px 10px 12px;
   }
 
   .project-list .third-list {
-    margin-left: -8%;
+    margin-left: -10px;
+    width: 67px;
+    height: 40px;
+    padding: 10px 12px 10px 12px;
   }
 
   .works-centered button {
     display: flex;
     align-items: left;
-    font-size: 200%;
-    margin-left: 0%;
-    margin-right: 60%;
-    padding: 30px;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    padding: 12px;
     cursor: pointer;
     border: none;
     background-color: #ff6b00;
     font-weight: bold;
     color: white;
+    width: 124px;
+    height: 48px;
   }
 
   .print-data button {
@@ -213,39 +238,47 @@
     cursor: pointer;
     font-weight: bold;
     color: white;
-    font-size: 200%;
+    font-size: 17px;
+    width: 375px;
+    height: 48px;
+    padding: 10px 12px;
+    margin-bottom: -50px;
   }
 
   .interesting button {
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 130px;
+    margin-top: 10px;
+    margin-right: 10px;
     border: none;
     cursor: pointer;
     background-color: #ff6b00;
-    font-weight: bold;
     color: white;
-    font-size: 200%;
-    padding: 4% 4% 4% 4%;
-    margin-bottom: 22%;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 12px 12px 12px 12px;
+    margin-bottom: 120px;
   }
 
   .about-me button {
     border: none;
     background-color: #ff6b00;
     cursor: pointer;
-    font-weight: bold;
     color: white;
-    font-size: 200%;
-    margin-left: 8%;
-    margin-right: 50%;
-    padding: 4% 4% 4% 4%;
-    margin-bottom: 70%;
+    font-size: 17px;
+    font-weight: 700;
+    width: 150px;
+    height: 48px;
+    margin-left: 30px;
+    margin-right: 60px;
+    padding: 12px 12px 12px 12px;
+    margin-bottom: 250px;
   }
 
   .works-centered button:hover {
     background-color: white;
     color: black;
-    border: solid;
+    border-color: black;
+    font-size: 17px;
   }
 
   .print-data {
@@ -254,46 +287,51 @@
     background-image: url("./logos/Professional Printing Data.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    margin-top: 5%;
+    background-size: 427px 586px;
+    width: 375px;
   }
 
   .print-data h3 {
     font-family: 'Crete Round', serif;
     color: white;
-    font-size: 400%;
+    font-size: 32px;
+    font-weight: 400;
     text-align: left;
-    margin-top: 24%;
-    margin-left: 5%;
+    margin-top: 100px;
+    margin-left: 16px;
   }
 
   .print-data p {
     font-family: 'Inter', sans-serif;
     color: white;
-    font-size: 200%;
-    margin-top: -15%;
-    margin-left: 5%;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -20px;
+    margin-left: 16px;
+    margin-bottom: 90px;
   }
 
-  .print-data .list-x {
+  .list-x {
     display: flex;
     flex-direction: row;
     justify-content: left;
     list-style: none;
+    width: 67px;
+    height: 40px;
     margin-bottom: 10px;
     margin-top: -25px;
   }
 
   .list-x .start-list-x {
-    margin-left: -7%;
+    margin-left: -20px;
   }
 
   .list-x .second-list-x {
-    margin-left: 15%;
+    margin-left: 20px;
   }
 
   .list-x .third-list-x {
-    margin-left: 20%;
+    margin-left: 20px;
   }
 
   .print-data button:hover {
@@ -304,7 +342,8 @@
 
   .about-me {
     background-color: rgba(28, 26, 25, 1);
-    margin-top: 33%;
+    margin-top: 4%;
+    width: 375px;
   }
 
   .background-holder {
@@ -312,57 +351,61 @@
     flex-direction: column;
     background-image: url("./logos/About Me.png");
     background-repeat: no-repeat;
-    background-size: 300px 500px;
+    background-size: 200px 300px;
     background-position: right bottom;
   }
 
   .about-me h2 {
     color: rgba(255, 107, 0, 1);
-    font-size: 800%;
+    font-size: 72px;
+    font-weight: 400;
     font-family: 'Crete Round', serif;
     text-align: center;
-    padding-top: 35%;
-    margin-left: 8%;
-    margin-right: 8%;
+    padding-top: 35px;
+    margin-left: 8px;
+    margin-right: 8px;
   }
 
   .about-me p {
     font-family: 'Inter', sans-serif;
-    font-size: 200%;
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: -10%;
-    margin-bottom: 8%;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-top: -10px;
+    margin-bottom: 27px;
   }
 
   .about-me button:hover {
     background-color: white;
     color: black;
-    border: solid;
     cursor: pointer;
   }
 
   .about-me hr {
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-bottom: 30%;
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-bottom: 30px;
   }
 
   .lists {
-    padding-bottom: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
   }
 
   .lists li {
     text-align: center;
+    align-items: center;
     font-family: 'Inter', sans-serif;
     list-style: none;
     text-decoration: none;
-    margin-bottom: 6%;
+    margin-bottom: 30px;
   }
 
   .lists h3 {
     font-family: 'Inter', sans-serif;
-    font-size: 300%;
+    font-size: 32px;
     text-align: center;
   }
 
@@ -373,47 +416,55 @@
   }
 
   .interesting {
-    margin-left: 8%;
-    margin-right: 8%;
+    width: 375;
   }
 
-  .interesting h4 {
+  .interest-text {
     font-family: 'Inter', sans-serif;
     text-align: center;
-    margin-top: 20%;
-    font-size: 350%;
-    margin-bottom: 20%;
+    width: 375px;
+    margin-top: 80px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    margin-left: 10px;
+    margin-right: 50px;
   }
 
   .interesting input,
   textarea {
     font-family: 'Inter', sans-serif;
+    width: 375px;
   }
 
   .interesting input {
-    font-size: 150%;
+    font-size: 15px;
     border: none;
-    margin-bottom: 2%;
-    width: 100%;
+    margin-bottom: 2px;
+    width: 375px;
   }
 
-  .interesting .end-name {
-    margin-bottom: 10%;
+  .end-name {
+    margin-bottom: 50px;
     border-color: rgba(219, 216, 215, 0.904);
+    width: 375px;
+    margin-left: 0;
   }
 
-  .interesting .end-address {
-    margin-bottom: 7%;
+  .end-address {
+    margin-bottom: 50px;
     border-color: rgba(219, 216, 215, 0.904);
+    width: 375px;
+    margin-left: 0;
   }
 
   .interesting .text-area {
-    font-size: 150%;
+    font-size: 15px;
     font-style: italic;
     background-color: #fbf8f7;
-    width: 100%;
+    width: 375px;
     border: none;
-    margin-bottom: 5%;
+    margin-bottom: 5px;
   }
 
   .interesting button:hover {
@@ -422,38 +473,49 @@
     border-color: black;
   }
 
-  .interesting .end-page {
+  .end-page {
     border-color: rgba(219, 216, 215, 0.904);
-    margin-bottom: 7%;
-    width: 100%;
+    margin-bottom: 27px;
+    width: 375px;
+    margin-left: 0;
   }
 
-  .footer ul {
+  .footer-icons {
     display: flex;
     list-style-type: none;
     align-items: center;
     justify-content: center;
-    margin-right: 12%;
-    margin-bottom: 10%;
+    margin-right: 0;
+    margin-bottom: 50px;
   }
 
-  .footer li {
-    margin-right: 0%;
+  .footer-icons li {
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+  }
+
+  .footer ul {
     color: #505f79;
-    margin-left: 8%;
-    padding-left: -4%;
+    margin-left: 80px;
+    margin-right: 0;
+    padding-left: 2px;
+    align-items: left;
+    justify-content: left;
   }
 
   .footer a img {
-    width: 30px;
-    height: 30px;
+    width: 17.99px;
+    height: 20px;
   }
 
   .footer hr {
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 125px;
+    margin-right: 30px;
     border-color: black;
     border-top: 5px solid;
     border-radius: 60px 60px 60px 60px;
+    width: 134px;
+    justify-content: center;
   }
 }
