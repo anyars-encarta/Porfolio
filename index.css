@@ -236,7 +236,7 @@ a {
 }
 
 .print-data a:hover {
-  background-color: #ff6b00;
+  background-color: rgba(255, 107, 0, 0.15);
 }
 
 .print-data button {
