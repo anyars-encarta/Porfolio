@@ -1,19 +1,21 @@
-body {
+.header-banner {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10px;
+}
+
+main {
   display: flex;
   flex-direction: column;
   max-width: 768px;
   min-width: 375px;
   justify-content: space-around;
   align-items: center;
-}
-
-.header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #3c3a39;
-  width: 375px;
+  margin: auto;
+  margin-top: 75px;
 }
 
 .about-me p,
@@ -21,6 +23,35 @@ button,
 h3,
 a {
   color: rgb(255, 255, 255);
+}
+
+.list-x a {
+  text-decoration: none;
+  border: solid #8b8282d3;
+  padding: 18px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  width: 43px;
+  height: 20px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.lists a {
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.works-centered a {
+  text-decoration: none;
+  border: solid #8b8282d3;
+  padding: 500px, 100px, 100px, 100px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  margin: 13px;
+  color: #1c1a19;
 }
 
 .header a {
@@ -31,11 +62,59 @@ a {
   margin-left: 20px;
 }
 
+.my-logo:hover,
+.lists a:hover {
+  color: #ff6b00;
+}
+
+.print-data a:hover {
+  background-color: rgba(255, 107, 0, 0.5);
+}
+
+.project-list a:hover {
+  background-color: #ff6b00;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3c3a39;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;*/
+}
+
 .header img {
   margin-right: 20px;
   cursor: pointer;
   width: 30px;
   height: 20px;
+}
+
+.works-centered img {
+  width: 327px;
+  height: 237px;
+  margin-left: 30px;
+}
+
+.attach-icon img {
+  float: left;
+  width: 5%;
+  height: 5%;
+  margin-right: 2%;
+}
+
+.social a img {
+  width: 19.99px;
+  height: 19.96px;
+}
+
+.header img:hover,
+.social img:hover {
+  filter: opacity(0.5) drop-shadow(0 0 #ff6b00);
 }
 
 .headline {
@@ -94,24 +173,6 @@ a {
   margin-left: -20px;
 }
 
-.works-centered img {
-  width: 327px;
-  height: 237px;
-  margin-left: 30px;
-}
-
-.attach-icon img {
-  float: left;
-  width: 5%;
-  height: 5%;
-  margin-right: 2%;
-}
-
-.social a img {
-  width: 19.99px;
-  height: 19.96px;
-}
-
 .works-centered {
   display: inline-flex;
   flex-direction: column;
@@ -162,39 +223,6 @@ a {
   margin-bottom: 60px;
 }
 
-.works-centered a {
-  text-decoration: none;
-  border: solid #8b8282d3;
-  padding: 500px, 100px, 100px, 100px;
-  font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  margin: 13px;
-  color: #1c1a19;
-}
-
-.list-x a {
-  text-decoration: none;
-  border: solid #8b8282d3;
-  padding: 18px;
-  font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 500;
-  width: 43px;
-  height: 20px;
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.24);
-}
-
-.lists a {
-  text-decoration: none;
-  font-size: 22px;
-}
-
-.project-list a:hover {
-  background-color: #ff6b00;
-}
-
 .project-list .start-list {
   margin-left: -30px;
   margin-right: 10px;
@@ -233,10 +261,6 @@ a {
   color: white;
   width: 124px;
   height: 48px;
-}
-
-.print-data a:hover {
-  background-color: rgba(255, 107, 0, 0.15);
 }
 
 .print-data button {
@@ -399,10 +423,6 @@ a {
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
-}
-
-.lists a:hover {
-  color: #ff6b00;
 }
 
 .lists li {
