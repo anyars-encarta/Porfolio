@@ -76,15 +76,15 @@ a {
 }
 
 .header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   background-color: #3c3a39;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 .header img {
@@ -274,6 +274,7 @@ a {
   height: 48px;
   padding: 10px 12px;
   margin-bottom: -50px;
+  margin-top: -2px;
 }
 
 .interesting button {
