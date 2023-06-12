@@ -178,8 +178,8 @@ a {
 }
 
 .works-centered {
-  display: inline-flex;
-  flex-direction: column;
+  /*display: inline-flex;
+  flex-direction: column;*/
   margin-top: 50%;
   width: 375px;
 }
@@ -219,8 +219,29 @@ a {
   margin-right: 10px;
 }
 
-.works-centered ul {
+/*.works-centered ul {
 display: block;
+}*/
+
+.start-list {
+  float: left;
+ padding: 0;
+}
+
+.second-list {
+ float: right;
+}
+
+.third-list {
+  clear: right;
+}
+
+.works-centered ul {
+  list-style-type: none;
+}
+
+.works-centered button {
+  clear: right;
 }
 
 .project-list .start-list {
