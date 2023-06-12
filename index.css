@@ -220,7 +220,7 @@ a {
 }
 
 .works-centered ul {
-  float: left;
+display: block;
 }
 
 .project-list .start-list {
@@ -248,7 +248,7 @@ a {
 
 .works-centered button {
   display: flex;
-  align-items: left;
+  /* align-items: left; */
   font-size: 17px;
   margin-left: 10px;
   margin-right: 60px;
