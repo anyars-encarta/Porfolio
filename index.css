@@ -107,6 +107,11 @@ a {
   margin-right: 2%;
 }
 
+.footer a img {
+  width: 17.99px;
+  height: 20px;
+}
+
 .social a img {
   width: 19.99px;
   height: 19.96px;
@@ -467,6 +472,7 @@ textarea {
   font-family: 'Inter', sans-serif;
   width: 375px;
 }
+
 .interesting input {
   font-size: 15px;
   border: none;
@@ -498,6 +504,7 @@ textarea {
   color: black;
   border-color: black;
 }
+
 .end-page {
   border-color: rgba(219, 216, 215, 0.904);
   margin-bottom: 27px;
@@ -527,11 +534,6 @@ textarea {
   padding-left: 2px;
   align-items: left;
   justify-content: left;
-}
-
-.footer a img {
-  width: 17.99px;
-  height: 20px;
 }
 
 .footer hr {
