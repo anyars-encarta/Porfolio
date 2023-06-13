@@ -458,8 +458,8 @@ a {
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 60px;
-  margin-left: 10px;
-  margin-right: 50px;
+  margin-left: 10px auto;
+  margin-right: 50px auto;
 }
 
 .interesting input,
