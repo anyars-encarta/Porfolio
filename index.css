@@ -502,7 +502,7 @@ textarea {
   border-color: rgba(219, 216, 215, 0.904);
   margin-bottom: 27px;
   width: 375px;
-  margin-left: 0;
+  margin-left: auto;
 }
 
 .footer-icons {
