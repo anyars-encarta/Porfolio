@@ -446,14 +446,14 @@ a {
   align-items: center;
   justify-content: center;
 }
+
 .interesting {
-  width: 375;
+  width: 375px;
 }
 
 .interest-text {
   font-family: 'Inter', sans-serif;
   text-align: center;
-  width: 375px;
   margin-top: 80px;
   font-size: 32px;
   font-weight: 700;
@@ -466,4 +466,35 @@ a {
 textarea {
   font-family: 'Inter', sans-serif;
   width: 375px;
+}
+.interesting input {
+  font-size: 15px;
+  border: none;
+  margin-bottom: 2px;
+}
+
+.end-name {
+  margin-bottom: 50px;
+  border-color: rgba(219, 216, 215, 0.904);
+  margin-left: 0;
+}
+
+.end-address {
+  margin-bottom: 50px;
+  border-color: rgba(219, 216, 215, 0.904);
+  margin-left: 0;
+}
+
+.interesting .text-area {
+  font-size: 15px;
+  font-style: italic;
+  background-color: #fbf8f7;
+  border: none;
+  margin-bottom: 5px;
+}
+
+.interesting button:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
 }
