@@ -196,14 +196,14 @@
           </article>
         </section>
 
-        <form class="interesting" action="https://formspree.io/f/{form_id}" method="post">
+        <form class="interesting" action="https://formspree.io/f/xqkorade" method="POST">
           <h4 class="interest-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
-          <input type="text" class="full-name" name="full-name" placeholder="Full name" maxlength="30" required>
+          <label><input type="text" class="full-name" name="name" placeholder="Full name" maxlength="30" required></label>
           <hr class="end-name">
-          <input type="email" class="email-address" name="email-address" placeholder="Email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+          <label><input type="email" class="email-address" name="email" placeholder="Email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></label>
           <hr class="end-address">
-          <textarea class="text-area" name="text-area" rows="7" cols="50" maxlength="500" placeholder="Write me something..." required></textarea>
-          <button>Get in touch</button>
+          <label><textarea class="text-area" name="message" rows="7" cols="50" maxlength="500" placeholder="Write me something..." required></textarea></label>
+          <button type="submit">Get in touch</button>
         </form>
 
         <hr class="end-page">
