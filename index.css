@@ -446,3 +446,24 @@ a {
   align-items: center;
   justify-content: center;
 }
+.interesting {
+  width: 375;
+}
+
+.interest-text {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  width: 375px;
+  margin-top: 80px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.interesting input,
+textarea {
+  font-family: 'Inter', sans-serif;
+  width: 375px;
+}
