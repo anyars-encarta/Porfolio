@@ -18,557 +18,558 @@ a {
 }
 
 @media (min-width: 375px) {
-main {
-  display: flex;
-  flex-direction: column;
-  max-width: 768px;
-  min-width: 375px;
-  justify-content: space-around;
-  align-items: center;
-  margin: auto;
-  margin-top: 75px;
-}
-
-.list-x a {
-  text-decoration: none;
-  border: solid #8b8282d3;
-  padding: 18px;
-  font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 500;
-  width: 43px;
-  height: 20px;
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.24);
-}
-
-.lists a {
-  text-decoration: none;
-  font-size: 22px;
-}
-
-.works-centered a {
-  text-decoration: none;
-  border: solid #8b8282d3;
-  padding: 500px, 100px, 100px, 100px;
-  font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  margin: 13px;
-  color: #1c1a19;
-}
-
-.header a {
-  font-family: 'Roboto', sans-serif;
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  margin-left: 20px;
-}
-
-.my-logo:hover,
-.lists a:hover {
-  color: #ff6b00;
-}
-
-.print-data a:hover {
-  background-color: rgba(255, 107, 0, 0.5);
-}
-
-.project-list a:hover {
-  background-color: #ff6b00;
-}
-
-.header {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #3c3a39;
-  margin-left: 0;
-}
-
-.header img {
-  margin-right: 20px;
-  cursor: pointer;
-  width: 30px;
-  height: 20px;
-}
-
-.header ul {
-  display:none
-}
-
-.works-centered img {
-  width: 327px;
-  height: 237px;
-  margin-left: 30px;
-}
-
-.attach-icon img {
-  float: left;
-  width: 5%;
-  height: 5%;
-  margin-right: 2%;
-}
-
-.footer a img {
-  width: 17.99px;
-  height: 20px;
-}
-
-.social a img {
-  width: 19.99px;
-  height: 19.96px;
-}
-
-.header img:hover,
-.social img:hover {
-  filter: opacity(0.5) drop-shadow(0 0 #ff6b00);
-}
-
-.headline {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  background-color: #1c1a19;
-  margin-bottom: -8px;
-  background-image: url("./logos/Background.png");
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: 100px 300px;
-  width: 375px;
-  height: 750px;
-}
-
-.headline h1 {
-  font-family: 'Crete Round', serif;
-  font-size: 45px;
-  color: #ff6b00;
-  width: 250px;
-  padding-top: 30px;
-  margin-left: 20px;
-}
-
-.headline h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 24px;
-  color: #fff5e1;
-  margin-left: 20px;
-  margin-top: -3px;
-}
-
-.headline .about-myself {
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  color: #fff;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: -10px;
-}
-
-.social {
-  display: flex;
-  padding-bottom: 30px;
-  list-style-type: none;
-}
-
-.social li {
-  margin-right: 5px;
-  color: #505f79;
-  margin-left: 20px;
-}
-
-.social .init-icon {
-  margin-left: -20px;
-}
-
-.works-centered {
-  display: inline-flex;
-  flex-direction: column;
-  margin-top: 50%;
-  width: 375px;
-}
-
-.works-title {
-  font-family: 'Crete Round', serif;
-  font-size: 40px;
-  margin-top: -10%;
-  text-align: center;
-  margin-left: 0;
-  justify-content: center;
-}
-
-.works-centered hr {
-  list-style: solid;
-  width: 100%;
-  color: #212121;
-  margin-top: 4%;
-  margin-bottom: 27%;
-}
-
-.multi-stories {
-  font-family: 'Crete Round', serif;
-  font-size: 32px;
-  font-weight: 400;
-  text-align: left;
-  margin-left: 10px;
-}
-
-.works-centered p {
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  text-align: left;
-  margin-top: -3px;
-  padding-bottom: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.works-centered ul {
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-  list-style: none;
-  margin-bottom: 60px;
-}
-
-.project-list .start-list {
-  margin-left: -30px;
-  margin-right: 10px;
-  width: 200px;
-  height: 40px;
-  padding: 10px 12px 10px 12px;
-}
-
-.project-list .second-list {
-  margin-left: 10px;
-  margin-right: 30px;
-  width: 67px;
-  height: 40px;
-  padding: 10px 12px 10px 12px;
-}
-
-.project-list .third-list {
-  margin-left: -10px;
-  width: 67px;
-  height: 40px;
-  padding: 10px 12px 10px 12px;
-}
-
-.works-centered button {
-  display: flex;
-  align-items: left;
-  font-size: 17px;
-  margin-left: 10px;
-  margin-right: 60px;
-  margin-bottom: 40px;
-  padding: 12px;
-  cursor: pointer;
-  border: none;
-  background-color: #ff6b00;
-  font-weight: bold;
-  color: white;
-  width: 124px;
-  height: 48px;
-}
-
-.print-container .data-0, 
-.data-0 button,
-.print-container .data-0-1, 
-.data-0-1 button,
-.print-container .data-0-2, 
-.data-0-2 button,
-.print-container .data-0-3, 
-.data-0-3 button,
-.print-container .data-0-4, 
-.data-0-4 button {
-  display: none;
-}
-
-.print-data button {
-  border: none;
-  background-color: #ff6b00;
-  cursor: pointer;
-  font-weight: bold;
-  color: white;
-  font-size: 17px;
-  width: 375px;
-  height: 48px;
-  padding: 10px 12px;
-  margin-bottom: -50px;
-  margin-top: -95px;
-}
-
-.interesting button {
-  margin-left: 130px;
-  margin-top: 10px;
-  margin-right: 10px;
-  border: none;
-  cursor: pointer;
-  background-color: #ff6b00;
-  color: white;
-  font-size: 17px;
-  font-weight: 700;
-  padding: 12px 12px 12px 12px;
-  margin-bottom: 120px;
-}
-
-.about-me button {
-  border: none;
-  background-color: #ff6b00;
-  cursor: pointer;
-  color: white;
-  font-size: 17px;
-  font-weight: 700;
-  width: 150px;
-  height: 48px;
-  margin-left: 30px;
-  margin-right: 60px;
-  padding: 12px 12px 12px 12px;
-  margin-bottom: 250px;
-}
-
-.works-centered button:hover {
-  background-color: white;
-  color: black;
-  border-color: black;
-  font-size: 17px;
-}
-
-.print-data {
-  display: grid;
-  height: 100vh;
-  background-image: url("./logos/Professional Printing Data.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 427px 586px;
-  width: 375px;
-}
-
-.print-data h3 {
-  font-family: 'Crete Round', serif;
-  color: white;
-  font-size: 32px;
-  font-weight: 400;
-  text-align: left;
-  margin-top: 300px;
-  margin-left: 16px;
-}
-
-.print-data p {
-  font-family: 'Inter', sans-serif;
-  color: white;
-  font-size: 16px;
-  font-weight: 400;
-  margin-top: -20px;
-  margin-left: 16px;
-  margin-bottom: 90px;
-}
-
-.list-x {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  list-style: none;
-  width: 67px;
-  height: 40px;
-  margin-bottom: 10px;
-  margin-top: -100px;
-}
-
-.list-x .start-list-x {
-  margin-left: -20px;
-}
-
-.list-x .second-list-x {
-  margin-left: 20px;
-}
-
-.list-x .third-list-x {
-  margin-left: 20px;
-}
-
-.print-data button:hover {
-  background-color: white;
-  color: black;
-  border: solid;
-}
-
-.about-me {
-  background-color: rgba(28, 26, 25, 1);
-  margin-top: 4%;
-  width: 375px;
-}
-
-.background-holder {
-  display: flex;
-  flex-direction: column;
-  background-image: url("./logos/About Me.png");
-  background-repeat: no-repeat;
-  background-size: 200px 300px;
-  background-position: right bottom;
-}
-
-.about-me h2 {
-  color: rgba(255, 107, 0, 1);
-  font-size: 72px;
-  font-weight: 400;
-  font-family: 'Crete Round', serif;
-  text-align: center;
-  padding-top: 35px;
-  margin-left: 8px;
-  margin-right: 8px;
-}
-
-.about-me p {
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  margin-left: 27px;
-  margin-right: 27px;
-  margin-top: -10px;
-  margin-bottom: 27px;
-}
-
-.about-me button:hover {
-  background-color: white;
-  color: black;
-  cursor: pointer;
-}
-
-.about-me hr {
-  margin-left: 27px;
-  margin-right: 27px;
-  margin-bottom: 30px;
-}
-
-.lists {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 20px;
-}
-
-.lists li {
-  text-align: center;
-  align-items: center;
-  font-family: 'Inter', sans-serif;
-  list-style: none;
-  text-decoration: none;
-  margin-bottom: 30px;
-}
-
-.lists h3 {
-  font-family: 'Inter', sans-serif;
-  font-size: 32px;
-  text-align: center;
-}
-
-.attach-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.interesting {
-  width: 375px;
-}
-
-.interest-text {
-  font-family: 'Inter', sans-serif;
-  text-align: center;
-  margin-top: 80px;
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 60px;
-  margin-left: 10px auto;
-  margin-right: 50px auto;
-}
-
-.interesting input,
-textarea {
-  font-family: 'Inter', sans-serif;
-  width: 375px;
-}
-
-.interesting input {
-  font-size: 15px;
-  border: none;
-  margin-bottom: 2px;
-}
-
-.end-name {
-  margin-bottom: 50px;
-  border-color: rgba(219, 216, 215, 0.904);
-  margin-left: 0;
-}
-
-.end-address {
-  margin-bottom: 50px;
-  border-color: rgba(219, 216, 215, 0.904);
-  margin-left: 0;
-}
-
-.interesting .text-area {
-  font-size: 15px;
-  font-style: italic;
-  background-color: #fbf8f7;
-  border: none;
-  margin-bottom: 5px;
-}
-
-.interesting button:hover {
-  background-color: white;
-  color: black;
-  border-color: black;
-}
-
-.end-page {
-  border-color: rgba(219, 216, 215, 0.904);
-  margin-bottom: 27px;
-  width: 375px;
-  margin-left: auto;
-}
-
-.footer-icons {
-  display: flex;
-  list-style-type: none;
-  align-items: center;
-  justify-content: center;
-  margin-right: 0;
-  margin-bottom: 50px;
-}
-
-.footer-icons li {
-  align-items: center;
-  justify-content: center;
-  margin-right: 30px;
-}
-
-.footer ul {
-  color: #505f79;
-  margin-left: 80px;
-  margin-right: 0;
-  padding-left: 2px;
-  align-items: left;
-  justify-content: left;
-}
-
-.footer hr {
-  margin-left: 125px;
-  margin-right: 30px;
-  border-color: black;
-  border-top: 5px solid;
-  border-radius: 60px 60px 60px 60px;
-  width: 134px;
-  justify-content: center;
-}
-}
-/*******************************************************************************************************************/
+  main {
+    display: flex;
+    flex-direction: column;
+    max-width: 768px;
+    min-width: 375px;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 75px;
+  }
+
+  .list-x a {
+    text-decoration: none;
+    border: solid #8b8282d3;
+    padding: 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    width: 43px;
+    height: 20px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.24);
+  }
+
+  .lists a {
+    text-decoration: none;
+    font-size: 22px;
+  }
+
+  .works-centered a {
+    text-decoration: none;
+    border: solid #8b8282d3;
+    padding: 500px, 100px, 100px, 100px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    margin: 13px;
+    color: #1c1a19;
+  }
+
+  .header a {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  .my-logo:hover,
+  .lists a:hover {
+    color: #ff6b00;
+  }
+
+  .print-data a:hover {
+    background-color: rgba(255, 107, 0, 0.5);
+  }
+
+  .project-list a:hover {
+    background-color: #ff6b00;
+  }
+
+  .header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3c3a39;
+    margin-left: 0;
+  }
+
+  .header img {
+    margin-right: 20px;
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+  }
+
+  .header ul {
+    display: none;
+  }
+
+  .works-centered img {
+    width: 327px;
+    height: 237px;
+    margin-left: 30px;
+  }
+
+  .attach-icon img {
+    float: left;
+    width: 5%;
+    height: 5%;
+    margin-right: 2%;
+  }
+
+  .footer a img {
+    width: 17.99px;
+    height: 20px;
+  }
+
+  .social a img {
+    width: 19.99px;
+    height: 19.96px;
+  }
+
+  .header img:hover,
+  .social img:hover {
+    filter: opacity(0.5) drop-shadow(0 0 #ff6b00);
+  }
+
+  .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: #1c1a19;
+    margin-bottom: -8px;
+    background-image: url("./logos/Background.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 100px 300px;
+    width: 375px;
+    height: 750px;
+  }
+
+  .headline h1 {
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+    color: #ff6b00;
+    width: 250px;
+    padding-top: 30px;
+    margin-left: 20px;
+  }
+
+  .headline h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #fff5e1;
+    margin-left: 20px;
+    margin-top: -3px;
+  }
+
+  .headline .about-myself {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -10px;
+  }
+
+  .social {
+    display: flex;
+    padding-bottom: 30px;
+    list-style-type: none;
+  }
+
+  .social li {
+    margin-right: 5px;
+    color: #505f79;
+    margin-left: 20px;
+  }
+
+  .social .init-icon {
+    margin-left: -20px;
+  }
+
+  .works-centered {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 50%;
+    width: 375px;
+  }
+
+  .works-title {
+    font-family: 'Crete Round', serif;
+    font-size: 40px;
+    margin-top: -10%;
+    text-align: center;
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .works-centered hr {
+    list-style: solid;
+    width: 100%;
+    color: #212121;
+    margin-top: 4%;
+    margin-bottom: 27%;
+  }
+
+  .multi-stories {
+    font-family: 'Crete Round', serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .works-centered p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-top: -3px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .works-centered ul {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    list-style: none;
+    margin-bottom: 60px;
+  }
+
+  .project-list .start-list {
+    margin-left: -30px;
+    margin-right: 10px;
+    width: 200px;
+    height: 40px;
+    padding: 10px 12px 10px 12px;
+  }
+
+  .project-list .second-list {
+    margin-left: 10px;
+    margin-right: 30px;
+    width: 67px;
+    height: 40px;
+    padding: 10px 12px 10px 12px;
+  }
+
+  .project-list .third-list {
+    margin-left: -10px;
+    width: 67px;
+    height: 40px;
+    padding: 10px 12px 10px 12px;
+  }
+
+  .works-centered button {
+    display: flex;
+    align-items: left;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    background-color: #ff6b00;
+    font-weight: bold;
+    color: white;
+    width: 124px;
+    height: 48px;
+  }
+
+  .print-container .data-0,
+  .data-0 button,
+  .print-container .data-0-1,
+  .data-0-1 button,
+  .print-container .data-0-2,
+  .data-0-2 button,
+  .print-container .data-0-3,
+  .data-0-3 button,
+  .print-container .data-0-4,
+  .data-0-4 button {
+    display: none;
+  }
+
+  .print-data button {
+    border: none;
+    background-color: #ff6b00;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+    width: 375px;
+    height: 48px;
+    padding: 10px 12px;
+    margin-bottom: -50px;
+    margin-top: -95px;
+  }
+
+  .interesting button {
+    margin-left: 130px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff6b00;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 12px 12px 12px 12px;
+    margin-bottom: 120px;
+  }
+
+  .about-me button {
+    border: none;
+    background-color: #ff6b00;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    width: 150px;
+    height: 48px;
+    margin-left: 30px;
+    margin-right: 60px;
+    padding: 12px 12px 12px 12px;
+    margin-bottom: 250px;
+  }
+
+  .works-centered button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+    font-size: 17px;
+  }
+
+  .print-data {
+    display: grid;
+    height: 100vh;
+    background-image: url("./logos/Professional Printing Data.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 427px 586px;
+    width: 375px;
+  }
+
+  .print-data h3 {
+    font-family: 'Crete Round', serif;
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 300px;
+    margin-left: 16px;
+  }
+
+  .print-data p {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -20px;
+    margin-left: 16px;
+    margin-bottom: 90px;
+  }
+
+  .list-x {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style: none;
+    width: 67px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: -100px;
+  }
+
+  .list-x .start-list-x {
+    margin-left: -20px;
+  }
+
+  .list-x .second-list-x {
+    margin-left: 20px;
+  }
+
+  .list-x .third-list-x {
+    margin-left: 20px;
+  }
+
+  .print-data button:hover {
+    background-color: white;
+    color: black;
+    border: solid;
+  }
+
+  .about-me {
+    background-color: rgba(28, 26, 25, 1);
+    margin-top: 4%;
+    width: 375px;
+  }
+
+  .background-holder {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./logos/About Me.png");
+    background-repeat: no-repeat;
+    background-size: 200px 300px;
+    background-position: right bottom;
+  }
+
+  .about-me h2 {
+    color: rgba(255, 107, 0, 1);
+    font-size: 72px;
+    font-weight: 400;
+    font-family: 'Crete Round', serif;
+    text-align: center;
+    padding-top: 35px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .about-me p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-top: -10px;
+    margin-bottom: 27px;
+  }
+
+  .about-me button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+
+  .about-me hr {
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-bottom: 30px;
+  }
+
+  .lists {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+
+  .lists li {
+    text-align: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 30px;
+  }
+
+  .lists h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .attach-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .interesting {
+    width: 375px;
+  }
+
+  .interest-text {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    margin-left: 10px auto;
+    margin-right: 50px auto;
+  }
+
+  .interesting input,
+  textarea {
+    font-family: 'Inter', sans-serif;
+    width: 375px;
+  }
+
+  .interesting input {
+    font-size: 15px;
+    border: none;
+    margin-bottom: 2px;
+  }
+
+  .end-name {
+    margin-bottom: 50px;
+    border-color: rgba(219, 216, 215, 0.904);
+    margin-left: 0;
+  }
+
+  .end-address {
+    margin-bottom: 50px;
+    border-color: rgba(219, 216, 215, 0.904);
+    margin-left: 0;
+  }
+
+  .interesting .text-area {
+    font-size: 15px;
+    font-style: italic;
+    background-color: #fbf8f7;
+    border: none;
+    margin-bottom: 5px;
+  }
+
+  .interesting button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+  }
+
+  .end-page {
+    border-color: rgba(219, 216, 215, 0.904);
+    margin-bottom: 27px;
+    width: 375px;
+    margin-left: auto;
+  }
+
+  .footer-icons {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+
+  .footer-icons li {
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+  }
+
+  .footer ul {
+    color: #505f79;
+    margin-left: 80px;
+    margin-right: 0;
+    padding-left: 2px;
+    align-items: left;
+    justify-content: left;
+  }
+
+  .footer hr {
+    margin-left: 125px;
+    margin-right: 30px;
+    border-color: black;
+    border-top: 5px solid;
+    border-radius: 60px 60px 60px 60px;
+    width: 134px;
+    justify-content: center;
+  }
+}
+
+/******************************************************************************************************************   */
 @media (min-width: 768px) {
   main {
     display: flex;
@@ -581,38 +582,38 @@ textarea {
     margin-top: 0;
   }
 
-.list-x a {
-  text-decoration: none;
-  border: solid #8b8282d3;
-  padding: 18px;
-  font-family: 'Inter', sans-serif;
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 500;
-  width: 43px;
-  height: 20px;
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.24);
-}
+  .list-x a {
+    text-decoration: none;
+    border: solid #8b8282d3;
+    padding: 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    width: 43px;
+    height: 20px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.24);
+  }
 
-.lists a {
-  text-decoration: none;
-  font-size: 22px;
-}
+  .lists a {
+    text-decoration: none;
+    font-size: 22px;
+  }
 
-.headline {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: left;
-  background-color: #1c1a19;
-  margin-bottom: -2%;
-  background-image: url("./logos/Desktop-Illustration-header.png");
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: 400.51px 633.32px;
-  width: 100%;
-  height: 870px;
-}
+  .headline {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: left;
+    background-color: #1c1a19;
+    margin-bottom: -2%;
+    background-image: url("./logos/Desktop-Illustration-header.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 400.51px 633.32px;
+    width: 100%;
+    height: 870px;
+  }
 
   .headline .background {
     display: flex;
@@ -620,7 +621,7 @@ textarea {
     align-items: center;
     justify-content: center;
   }
-  
+
   .headline h1 {
     font-family: 'Crete Round', serif;
     font-size: 75px;
@@ -630,7 +631,7 @@ textarea {
     margin-left: 80px;
     margin-right: 200px;
   }
-  
+
   .headline h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 44px;
@@ -639,7 +640,7 @@ textarea {
     margin-top: -3px;
     margin-right: 200px;
   }
-  
+
   .headline .about-myself {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
@@ -660,11 +661,11 @@ textarea {
     align-items: center;
     justify-content: center;
   }
-  
+
   .social .init-icon {
     margin-left: 0;
   }
-  
+
   .social li {
     margin-bottom: 20px;
   }
@@ -677,15 +678,15 @@ textarea {
     display: flex;
     list-style-type: none;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-right: 20px;
     margin-top: 20px;
   }
-  
+
   .header .contact {
     margin-right: 20px;
   }
-  
+
   .header li a:hover {
     color: #ff6b00;
   }
@@ -702,18 +703,18 @@ textarea {
     margin-top: 20%;
     width: 100%;
   }
-  
+
   .works-centered hr {
     width: 60%;
     margin-top: -8.5%;
     margin-left: 20px;
   }
-  
+
   .works-centered h2 {
     margin-left: 10%;
     margin-right: 0;
   }
- 
+
   .works-centered ul {
     display: flex;
     flex-direction: row;
@@ -722,7 +723,7 @@ textarea {
     margin-bottom: 60px;
     margin-top: -180px;
   }
-  
+
   .project-list .start-list {
     margin-left: -30px;
     margin-right: 10px;
@@ -730,7 +731,7 @@ textarea {
     height: 40px;
     padding: 10px 12px 10px 12px;
   }
-  
+
   .project-list .second-list {
     margin-left: 10px;
     margin-right: 30px;
@@ -738,7 +739,7 @@ textarea {
     height: 40px;
     padding: 10px 12px 10px 12px;
   }
-  
+
   .project-list .third-list {
     margin-left: -10px;
     width: 67px;
@@ -751,7 +752,7 @@ textarea {
     flex-direction: row;
     justify-content: right;
   }
-  
+
   .main-works {
     display: flex;
   }
@@ -763,7 +764,7 @@ textarea {
     width: 684px;
     height: 448px;
   }
-  
+
   .main-works .multi-stories {
     margin-top: -34%;
     font-size: 40px;
@@ -773,7 +774,7 @@ textarea {
   }
 
   .main-works p {
-    margin-right: 120px;
+    /* margin-right: 120px; */
     font-size: 20px;
     font-weight: 400px;
     margin-right: 21%;
@@ -782,7 +783,7 @@ textarea {
   .main-works-1 {
     float: right;
   }
-  
+
   .project-list {
     margin-left: 820px;
     margin-top: -250px;
@@ -819,7 +820,35 @@ textarea {
     margin-right: 50px;
     margin-top: 130px;
   }
-  
+
+  .data-0 {
+    background-image: url("./logos/Img Placeholder 1.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 369px 435px;
+    border: 2px black solid;
+  }
+
+  .data-2,
+  .data-5,
+  .data-0-1,
+  .data-0-3 {
+    background-image: url("./logos/Img Placeholder 2.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 369px 435px;
+  }
+
+  .data-3,
+  .data-5 .data-6,
+  .data-0-2,
+  .data-0-4 {
+    background-image: url("./logos/Img Placeholder 3.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 369px 435px;
+  }
+
   .print-container .data-0,
   .print-container .data-0-1,
   .print-container .data-0-2,
@@ -827,7 +856,7 @@ textarea {
   .print-container .data-0-4 {
     display: inline-block;
   }
-  
+
   .data-0 button,
   .data-0-1 button,
   .data-0-2 button,
@@ -835,6 +864,13 @@ textarea {
   .data-0-4 button {
     display: inline-block;
     margin-top: 390px;
+  }
+
+  .data-4 {
+    background-image: url("./logos/Img Placeholder 4.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 369px 435px;
   }
 
   .print-container .data-1,
@@ -857,35 +893,6 @@ textarea {
     display: none;
   }
 
-  .data-0 {
-    background-image: url("./logos/Img Placeholder 1.png");
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 369px 435px;
-    border: 2px black solid;
-  }
-   
-  .data-2, .data-5, .data-0-1, .data-0-3 {
-    background-image: url("./logos/Img Placeholder 2.png");
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 369px 435px;
-  }
-  
-  .data-4 {
-    background-image: url("./logos/Img Placeholder 4.png");
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 369px 435px;
-  }
-
-  .data-3, .data-5 .data-6, .data-0-2, .data-0-4 {
-    background-image: url("./logos/Img Placeholder 3.png");
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 369px 435px;
-  }
-
   .print-data h3 {
     font-family: 'Crete Round', serif;
     color: white;
@@ -896,7 +903,7 @@ textarea {
     margin-left: 16px;
     height: 5px;
   }
-  
+
   .print-data p {
     font-family: 'Inter', sans-serif;
     color: white;
@@ -906,7 +913,7 @@ textarea {
     margin-left: 16px;
     margin-bottom: 90px;
   }
-  
+
   .list-x {
     display: flex;
     flex-direction: row;
@@ -917,15 +924,15 @@ textarea {
     margin-bottom: -50px;
     margin-top: -50px;
   }
-  
+
   .list-x .start-list-x {
     margin-left: -20px;
   }
-  
+
   .list-x .second-list-x {
     margin-left: 20px;
   }
-  
+
   .list-x .third-list-x {
     margin-left: 20px;
   }
@@ -959,7 +966,7 @@ textarea {
     margin-left: 10%;
     margin-right: 8px;
   }
-  
+
   .about-me p {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -967,13 +974,24 @@ textarea {
     margin: -10px 27px 27px 10%;
     width: 40%;
   }
-  
+
+  .form-fields button {
+    margin-top: 10px 10px -120px -500px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff6b00;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 12px 12px 12px 12px;
+  }
+
   .about-me button:hover {
     background-color: white;
     color: black;
     cursor: pointer;
   }
-  
+
   .about-me hr {
     margin: -8% 10% 30px 10%;
   }
@@ -1022,7 +1040,7 @@ textarea {
     font-weight: 700;
     width: 60%;
   }
-  
+
   .form-fields {
     margin-right: 35%;
   }
@@ -1030,30 +1048,19 @@ textarea {
   .form-fields input,
   textarea {
     font-family: 'Inter', sans-serif;
-    
   }
-  
+
   .form-fields input,
-  textarea, .end-name,
+  textarea,
+  .end-name,
   .end-address {
-  width: 200%;
+    width: 200%;
   }
 
   .interesting input {
     font-size: 15px;
     border: none;
     margin-bottom: 2px;
-  }
-
-  .form-fields button {
-    margin-top: 10px 10px -120px -500px;
-    border: none;
-    cursor: pointer;
-    background-color: #ff6b00;
-    color: white;
-    font-size: 17px;
-    font-weight: 700;
-    padding: 12px 12px 12px 12px;
   }
 
   .end-page {
