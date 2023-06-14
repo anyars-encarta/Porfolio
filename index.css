@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .header-banner {
   overflow: hidden;
   background-color: #333;
@@ -6,6 +8,13 @@
   width: 100%;
   height: 10px;
   margin-left: 0;
+}
+
+.about-me p,
+button,
+h3,
+a {
+  color: rgb(255, 255, 255);
 }
 
 @media (min-width: 375px) {
@@ -18,13 +27,6 @@ main {
   align-items: center;
   margin: auto;
   margin-top: 75px;
-}
-
-.about-me p,
-button,
-h3,
-a {
-  color: rgb(255, 255, 255);
 }
 
 .list-x a {
@@ -275,6 +277,19 @@ a {
   height: 48px;
 }
 
+.print-container .data-0, 
+.data-0 button,
+.print-container .data-0-1, 
+.data-0-1 button,
+.print-container .data-0-2, 
+.data-0-2 button,
+.print-container .data-0-3, 
+.data-0-3 button,
+.print-container .data-0-4, 
+.data-0-4 button {
+  display: none;
+}
+
 .print-data button {
   border: none;
   background-color: #ff6b00;
@@ -286,7 +301,7 @@ a {
   height: 48px;
   padding: 10px 12px;
   margin-bottom: -50px;
-  margin-top: -2px;
+  margin-top: -95px;
 }
 
 .interesting button {
@@ -341,7 +356,7 @@ a {
   font-size: 32px;
   font-weight: 400;
   text-align: left;
-  margin-top: 100px;
+  margin-top: 300px;
   margin-left: 16px;
 }
 
@@ -363,7 +378,7 @@ a {
   width: 67px;
   height: 40px;
   margin-bottom: 10px;
-  margin-top: -25px;
+  margin-top: -100px;
 }
 
 .list-x .start-list-x {
@@ -563,22 +578,41 @@ textarea {
     justify-content: space-around;
     align-items: center;
     margin: auto;
-    margin-top: 75px;
+    margin-top: 0;
   }
 
-  .headline {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: left;
-    background-color: #1c1a19;
-    margin-bottom: -8px;
-    background-image: url("./logos/Desktop-Illustration-header.png");
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 400.51px 633.32px;
-    width: 100%;
-    height: 870px;
-  }
+.list-x a {
+  text-decoration: none;
+  border: solid #8b8282d3;
+  padding: 18px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  width: 43px;
+  height: 20px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+.lists a {
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: left;
+  background-color: #1c1a19;
+  margin-bottom: -2%;
+  background-image: url("./logos/Desktop-Illustration-header.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 400.51px 633.32px;
+  width: 100%;
+  height: 870px;
+}
 
   .headline .background {
     display: flex;
@@ -608,10 +642,10 @@ textarea {
   
   .headline .about-myself {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     color: #fff;
     margin-left: 80px;
-    margin-right: 600px;
+    margin-right: 500px;
     margin-top: -10px;
   }
 
@@ -670,14 +704,46 @@ textarea {
   }
   
   .works-centered hr {
-    width: 794px;
-    margin-top: -100px;
+    width: 60%;
+    margin-top: -8.5%;
     margin-left: 20px;
   }
   
   .works-centered h2 {
-    margin-left: 90px;
+    margin-left: 10%;
     margin-right: 0;
+  }
+ 
+  .works-centered ul {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    list-style: none;
+    margin-bottom: 60px;
+    margin-top: -180px;
+  }
+  
+  .project-list .start-list {
+    margin-left: -30px;
+    margin-right: 10px;
+    width: 200px;
+    height: 40px;
+    padding: 10px 12px 10px 12px;
+  }
+  
+  .project-list .second-list {
+    margin-left: 10px;
+    margin-right: 30px;
+    width: 67px;
+    height: 40px;
+    padding: 10px 12px 10px 12px;
+  }
+  
+  .project-list .third-list {
+    margin-left: -10px;
+    width: 67px;
+    height: 40px;
+    padding: 10px 12px 10px 12px;
   }
 
   .top-works {
@@ -686,16 +752,314 @@ textarea {
     justify-content: right;
   }
   
+  .main-works {
+    display: flex;
+  }
+
   .main-works img {
     float: left;
-    margin-top: -250px;
-    margin-left: 90px;
+    margin-top: -20%;
+    margin-left: 10%;
+    width: 684px;
+    height: 448px;
+  }
+  
+  .main-works .multi-stories {
+    margin-top: -34%;
+    font-size: 40px;
+    font-weight: 400px;
+    margin-left: 10px;
+    margin-right: 21%;
+  }
+
+  .main-works p {
+    margin-right: 120px;
+    font-size: 20px;
+    font-weight: 400px;
+    margin-right: 21%;
   }
 
   .main-works-1 {
     float: right;
   }
-  /*.main-works {
+  
+  .project-list {
+    margin-left: 820px;
+    margin-top: -250px;
+  }
+
+  .works-centered button {
+    margin-left: 830px;
+    margin-top: -20px;
+  }
+
+  .print-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .about-me button {
+    border: none;
+    background-color: #ff6b00;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    width: 150px;
+    height: 48px;
+    margin-left: 10%;
+    margin-right: 60px;
+    padding: 12px 12px 12px 12px;
+    margin-bottom: 250px;
+  }
+
+  .print-data {
+    width: 369px;
+    height: 435px;
+    margin-right: 50px;
+    margin-top: 130px;
+  }
+  
+  .print-container .data-0,
+  .print-container .data-0-1,
+  .print-container .data-0-2,
+  .print-container .data-0-3,
+  .print-container .data-0-4 {
+    display: inline-block;
+  }
+  
+  .data-0 button,
+  .data-0-1 button,
+  .data-0-2 button,
+  .data-0-3 button,
+  .data-0-4 button {
+    display: inline-block;
+    margin-top: 390px;
+  }
+
+  .print-container .data-1,
+  .print-container .data-2,
+  .print-container .data-3,
+  .print-container .data-4,
+  .print-container .data-5 {
+    display: none;
+  }
+
+  .data-2 button,
+  .data-3 button,
+  .data-4 button,
+  .data-5 button,
+  .data-6 button,
+  .data-0-1 button,
+  .data-0-2 button,
+  .data-0-3 button,
+  .data-0-4 button {
+    display: none;
+  }
+
+  .data-0 {
+    background-image: url("./logos/Img Placeholder 1.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 369px 435px;
+    border: 2px black solid;
+  }
+   
+  .data-2, .data-5, .data-0-1, .data-0-3 {
+    background-image: url("./logos/Img Placeholder 2.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 369px 435px;
+  }
+  
+  .data-4 {
+    background-image: url("./logos/Img Placeholder 4.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 369px 435px;
+  }
+
+  .data-3, .data-5 .data-6, .data-0-2, .data-0-4 {
+    background-image: url("./logos/Img Placeholder 3.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 369px 435px;
+  }
+
+  .print-data h3 {
+    font-family: 'Crete Round', serif;
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 180px;
+    margin-left: 16px;
+    height: 5px;
+  }
+  
+  .print-data p {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-left: 16px;
+    margin-bottom: 90px;
+  }
+  
+  .list-x {
     display: flex;
-  }*/
+    flex-direction: row;
+    justify-content: left;
+    list-style: none;
+    width: 67px;
+    height: 40px;
+    margin-bottom: -50px;
+    margin-top: -50px;
+  }
+  
+  .list-x .start-list-x {
+    margin-left: -20px;
+  }
+  
+  .list-x .second-list-x {
+    margin-left: 20px;
+  }
+  
+  .list-x .third-list-x {
+    margin-left: 20px;
+  }
+
+  .print-data button {
+    width: 369px;
+  }
+
+  .about-me {
+    background-color: rgba(28, 26, 25, 1);
+    margin-top: 4%;
+    width: 100%;
+  }
+
+  .background-holder {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./logos/desktop-illustration-about me.png");
+    background-repeat: no-repeat;
+    background-size: 675.39px 352.38px;
+    background-position: right center;
+  }
+
+  .about-me h2 {
+    color: rgba(255, 107, 0, 1);
+    font-size: 72px;
+    font-weight: 400;
+    font-family: 'Crete Round', serif;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 8px;
+  }
+  
+  .about-me p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: -10px 27px 27px 10%;
+    width: 40%;
+  }
+  
+  .about-me button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .about-me hr {
+    margin: -8% 10% 30px 10%;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+
+  .flex-master {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 5%;
+  }
+
+  .attach-icon img {
+    float: left;
+    width: 50%;
+    height: 50%;
+    margin-right: 2%;
+  }
+
+  .flex-container li {
+    text-align: left;
+    margin-left: -20%;
+  }
+
+  .interesting {
+    display: flex;
+    width: 100%;
+    margin-top: 8%;
+  }
+
+  .interest-text {
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    margin-left: 35%;
+    margin-top: -2%;
+    margin-right: 10%;
+    font-size: 40px;
+    font-weight: 700;
+    width: 60%;
+  }
+  
+  .form-fields {
+    margin-right: 35%;
+  }
+
+  .form-fields input,
+  textarea {
+    font-family: 'Inter', sans-serif;
+    
+  }
+  
+  .form-fields input,
+  textarea, .end-name,
+  .end-address {
+  width: 200%;
+  }
+
+  .interesting input {
+    font-size: 15px;
+    border: none;
+    margin-bottom: 2px;
+  }
+
+  .form-fields button {
+    margin-top: 10px 10px -120px -500px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff6b00;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 12px 12px 12px 12px;
+  }
+
+  .end-page {
+    border-color: rgba(219, 216, 215, 0.904);
+    margin-bottom: 27px;
+    width: 100%;
+    margin-left: auto;
+  }
 }
