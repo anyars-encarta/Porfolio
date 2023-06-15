@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .header-banner {
-  overflow: hidden;
   background-color: #333;
   position: fixed;
   top: 0;
@@ -141,7 +149,7 @@ a {
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 100px 300px;
-    width: 375px;
+    width: 100%;
     height: 750px;
   }
 
@@ -185,6 +193,20 @@ a {
 
   .social .init-icon {
     margin-left: -20px;
+  }
+
+  .top-works {
+    margin-top: 300px;
+  }
+
+  .top-works h2 {
+    font-size: 40px;
+    font-weight: 400px;
+  }
+
+  .top-works hr {
+    width: 327px;
+    margin-top: 70px;
   }
 
   .works-centered {
@@ -260,6 +282,14 @@ a {
     padding: 10px 12px 10px 12px;
   }
 
+  .project-list .fourth-list {
+    width: 120px;
+    height: 40px;
+    padding: 10px 12px 10px 12px;
+    margin-top: 50px;
+    margin-left: -290px;
+  }
+
   .works-centered button {
     display: flex;
     align-items: left;
@@ -300,8 +330,7 @@ a {
     width: 375px;
     height: 48px;
     padding: 10px 12px;
-    margin-bottom: -50px;
-    margin-top: -95px;
+    margin-top: -30%;
   }
 
   .interesting button {
@@ -377,8 +406,8 @@ a {
     list-style: none;
     width: 67px;
     height: 40px;
-    margin-bottom: 10px;
     margin-top: -100px;
+    padding-top: 40px;
   }
 
   .list-x .start-list-x {
@@ -402,7 +431,7 @@ a {
   .about-me {
     background-color: rgba(28, 26, 25, 1);
     margin-top: 4%;
-    width: 375px;
+    width: 100%;
   }
 
   .background-holder {
@@ -575,11 +604,10 @@ a {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    min-width: 768px;
     justify-content: space-around;
     align-items: center;
-    margin: auto;
     margin-top: 0;
+    margin-left: 0;
   }
 
   .list-x a {
@@ -606,7 +634,6 @@ a {
     flex-direction: row-reverse;
     align-items: left;
     background-color: #1c1a19;
-    margin-bottom: -2%;
     background-image: url("./logos/Desktop-Illustration-header.png");
     background-repeat: no-repeat;
     background-position: top right;
@@ -624,7 +651,8 @@ a {
 
   .headline h1 {
     font-family: 'Crete Round', serif;
-    font-size: 75px;
+    font-size: 72px;
+    font-weight: 400px;
     color: #ff6b00;
     width: 550px;
     margin-top: 200px;
@@ -634,7 +662,8 @@ a {
 
   .headline h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 44px;
+    font-size: 32px;
+    font-weight: 500px;
     color: #fff5e1;
     margin-left: 80px;
     margin-top: -3px;
@@ -643,7 +672,8 @@ a {
 
   .headline .about-myself {
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 400px;
     color: #fff;
     margin-left: 80px;
     margin-right: 500px;
@@ -668,6 +698,35 @@ a {
 
   .social li {
     margin-bottom: 20px;
+  }
+
+  .top-works {
+    display: flex;
+    flex-direction: row;
+    margin-top: 300px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top-works h2 {
+    display: inherit;
+    float: left;
+    font-size: 40px;
+    font-weight: 400px;
+    margin-left: -12%;
+    width: 50%;
+    margin-top: -130px;
+  }
+
+  .top-works hr {
+    clear: both;
+    float: right;
+    width: 60%;
+    margin-top: -150px;
+    margin-right: 150px;
+    margin-left: -300px;
   }
 
   .header .hamburger {
@@ -698,109 +757,91 @@ a {
   }
 
   .works-centered {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20%;
     width: 100%;
-  }
-
-  .works-centered hr {
-    width: 62%;
-    margin-top: -8.5%;
-    margin-left: 20px;
-    margin-bottom: 400px;
-  }
-
-  .works-centered h2 {
-    margin-left: 0;
-    margin-right: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 30px;
+    margin-top: 150px;
   }
 
   .works-centered ul {
-    display: flex;
-    flex-direction: row;
     align-items: left;
-    list-style: none;
-    margin-bottom: 60px;
-    margin-top: -180px;
+    margin: auto;
+    margin-left: 630px;
+    margin-top: -190px;
   }
 
   .project-list .start-list {
-    margin-left: -230px;
-    margin-right: 10px;
     width: 200px;
     height: 40px;
     padding: 10px 12px 10px 12px;
   }
 
   .project-list .second-list {
-    margin-left: -130px;
-    margin-right: 30px;
     width: 67px;
     height: 40px;
     padding: 10px 12px 10px 12px;
   }
 
   .project-list .third-list {
-    margin-left: -41px;
     width: 67px;
     height: 40px;
     padding: 10px 12px 10px 12px;
   }
 
-  .top-works {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
+  .project-list .fourth-list {
+    width: 120px;
+    height: 40px;
+    padding: 10px 12px 10px 12px;
+    margin-top: 50px;
+    margin-left: -290px;
   }
 
   .main-works {
     display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: left;
   }
 
-  .main-works img {
+  .attach-icon img {
     float: left;
-    margin-top: -20%;
-    margin-left: 0;
+    width: 50%;
+    height: 50%;
+    margin-right: 2%;
+  }
+
+  .works-centered .main-works img {
     width: 684px;
     height: 448px;
+    margin-left: 0;
   }
 
   .main-works .multi-stories {
-    margin-top: -280px;
+    margin-top: -5px;
     font-size: 40px;
     font-weight: 400px;
-    margin-left: 10px;
-    margin-right: 21%;
+    margin-left: 20px;
   }
 
   .main-works p {
     font-size: 20px;
     font-weight: 400px;
-    width: 50%;
-  }
-
-  .main-works-1 {
-    float: right;
-    margin-top: 0;
-  }
-
-  .project-list {
-    margin-left: 820px;
-    margin-top: -250px;
-  }
-
-  .works-centered button {
-    margin-left: 630px;
-    margin-top: -20px;
+    width: 70%;
+    margin-left: 20px;
   }
 
   .print-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 200px;
-    width: 50%;
-    margin-left: -660px;
+    place-items: center;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(359px, 1fr));
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .print-container > div {
+    grid-column: span 2 !important;
   }
 
   .about-me button {
@@ -821,10 +862,7 @@ a {
   .print-data {
     width: 369px;
     height: 435px;
-    margin-right: 20px;
-    margin-top: 130px;
-    margin-bottom: -50px;
-    margin-left: 0;
+    margin: 0;
   }
 
   .data-0 {
@@ -933,6 +971,7 @@ a {
     height: 40px;
     margin-bottom: -50px;
     margin-top: -50px;
+    padding-top: 0;
   }
 
   .list-x .start-list-x {
@@ -953,7 +992,7 @@ a {
 
   .about-me {
     background-color: rgba(28, 26, 25, 1);
-    margin-top: 4%;
+    margin-top: 10%;
     width: 100%;
   }
 
@@ -1009,13 +1048,6 @@ a {
     flex-direction: row;
     align-items: flex-start;
     margin-top: 5%;
-  }
-
-  .attach-icon img {
-    float: left;
-    width: 50%;
-    height: 50%;
-    margin-right: 2%;
   }
 
   .flex-container li {
