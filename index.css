@@ -700,19 +700,20 @@ a {
   .works-centered {
     display: flex;
     flex-direction: column;
-    margin-top: 20%;
+    margin-top: 400px;
     width: 100%;
   }
 
   .works-centered hr {
     width: 60%;
-    margin-top: -8.5%;
+    margin-top: -130px;
     margin-left: 20px;
   }
 
   .works-centered h2 {
-    margin-left: 10%;
+    margin-top: -160px;
     margin-right: 0;
+    margin-left: 820px;
   }
 
   .works-centered ul {
@@ -722,6 +723,7 @@ a {
     list-style: none;
     margin-bottom: 60px;
     margin-top: -180px;
+    margin-left: 820px;
   }
 
   .project-list .start-list {
@@ -755,18 +757,19 @@ a {
 
   .main-works {
     display: flex;
+    margin-top: 100px;
   }
 
   .main-works img {
     float: left;
-    margin-top: -20%;
+    margin-top: -380px;
     margin-left: 10%;
     width: 684px;
     height: 448px;
   }
 
   .main-works .multi-stories {
-    margin-top: -34%;
+    margin-top: -380px;
     font-size: 40px;
     font-weight: 400px;
     margin-left: 10px;
@@ -774,7 +777,7 @@ a {
   }
 
   .main-works p {
-    /* margin-right: 120px; */
+    margin-right: 120px;
     font-size: 20px;
     font-weight: 400px;
     margin-right: 21%;
@@ -792,6 +795,7 @@ a {
   .works-centered button {
     margin-left: 830px;
     margin-top: -20px;
+    margin-left: 830px;
   }
 
   .print-container {
