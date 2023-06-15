@@ -705,13 +705,13 @@ a {
   }
 
   .works-centered hr {
-    width: 60%;
+    width: 50%;
     margin-top: -8.5%;
     margin-left: 20px;
   }
 
   .works-centered h2 {
-    margin-left: 10%;
+    margin-left: 14%;
     margin-right: 0;
   }
 
@@ -725,7 +725,7 @@ a {
   }
 
   .project-list .start-list {
-    margin-left: -30px;
+    margin-left: 60px;
     margin-right: 10px;
     width: 200px;
     height: 40px;
@@ -760,13 +760,13 @@ a {
   .main-works img {
     float: left;
     margin-top: -20%;
-    margin-left: 10%;
+    margin-left: 290px;
     width: 684px;
     height: 448px;
   }
 
   .main-works .multi-stories {
-    margin-top: -34%;
+    margin-top: -400px;
     font-size: 40px;
     font-weight: 400px;
     margin-left: 10px;
@@ -774,14 +774,14 @@ a {
   }
 
   .main-works p {
-    /* margin-right: 120px; */
     font-size: 20px;
     font-weight: 400px;
-    margin-right: 21%;
+    margin-right: 35%;
   }
 
   .main-works-1 {
     float: right;
+    margin-top: 0;
   }
 
   .project-list {
@@ -790,13 +790,14 @@ a {
   }
 
   .works-centered button {
-    margin-left: 830px;
+    margin-left: 920px;
     margin-top: -20px;
   }
 
   .print-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 200px;
   }
 
   .about-me button {
@@ -817,8 +818,9 @@ a {
   .print-data {
     width: 369px;
     height: 435px;
-    margin-right: 50px;
+    margin-right: 100px;
     margin-top: 130px;
+    margin-bottom: -50px;
   }
 
   .data-0 {
@@ -827,6 +829,10 @@ a {
     background-position: top right;
     background-size: 369px 435px;
     border: 2px black solid;
+  }
+  
+  .data-6 h3 {
+    margin-bottom: 10px;
   }
 
   .data-2,
@@ -975,17 +981,6 @@ a {
     width: 40%;
   }
 
-  .form-fields button {
-    margin-top: 10px 10px -120px -500px;
-    border: none;
-    cursor: pointer;
-    background-color: #ff6b00;
-    color: white;
-    font-size: 17px;
-    font-weight: 700;
-    padding: 12px 12px 12px 12px;
-  }
-
   .about-me button:hover {
     background-color: white;
     color: black;
@@ -1057,10 +1052,15 @@ a {
     width: 200%;
   }
 
-  .interesting input {
-    font-size: 15px;
+  .interesting input,
+  .interesting .text-area {
+    font-size: 24px;
     border: none;
     margin-bottom: 2px;
+  }
+
+  .interesting .form-button {
+    margin-left: 0;
   }
 
   .end-page {
