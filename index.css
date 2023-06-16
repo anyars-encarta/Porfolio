@@ -197,6 +197,9 @@ a {
 
   .top-works {
     margin-top: 300px;
+    font-family: 'Crete Round', serif;
+    font-size: 20px;
+    font-weight: 400;
   }
 
   .top-works h2 {
@@ -712,8 +715,9 @@ a {
   }
 
   .top-works h2 {
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
     font-size: 40px;
-    font-weight: 400px;
     margin-left: 5%;
     width: 200%;
     margin-top: -130px;
@@ -1102,6 +1106,7 @@ a {
     margin-left: auto;
   }
 }
+
 .print-data:hover {
   transform: scale(1.1);
 }
@@ -1115,8 +1120,19 @@ a {
 .rotate div {
   padding-top: 3em;
 }
+
 @keyframes rotateZ {
   to {
     transform: rotateZ(45deg);
   }
+}
+
+main h1:hover,
+main h2:hover,
+main h3:hover,
+main h4:hover,
+main p:hover {
+  transform: translate(10);
+  transform: scale(1.1);
+  transform-origin: left;
 }
