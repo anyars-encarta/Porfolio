@@ -1115,3 +1115,8 @@ a {
 .rotate div {
   padding-top: 3em;
 }
+@keyframes rotateZ {
+  to {
+    transform: rotateZ(45deg);
+  }
+}
