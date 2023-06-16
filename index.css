@@ -330,7 +330,7 @@ a {
     width: 375px;
     height: 48px;
     padding: 10px 12px;
-    margin-top: -30%;
+    margin-top: -20%;
   }
 
   .interesting button {
@@ -599,7 +599,8 @@ a {
 }
 
 /* ***************************************************************************************************************** */
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {*/
+  @media only screen and (min-width: 768px) {
   main {
     display: flex;
     flex-direction: column;
@@ -711,22 +712,22 @@ a {
   }
 
   .top-works h2 {
-    display: inherit;
-    float: left;
+    /*display: inherit;
+    float: left;*/
     font-size: 40px;
     font-weight: 400px;
-    margin-left: -12%;
-    width: 50%;
+    margin-left: 5%;
+    width: 200%;
     margin-top: -130px;
   }
 
   .top-works hr {
-    clear: both;
-    float: right;
-    width: 60%;
+    /*clear: both;
+    float: right;*/
+    width: 200%;
     margin-top: -150px;
-    margin-right: 150px;
-    margin-left: -300px;
+    margin-right: 40px;
+    margin-left: -180px;
   }
 
   .header .hamburger {
@@ -758,8 +759,8 @@ a {
 
   .works-centered {
     width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     margin-bottom: 30px;
     margin-top: 150px;
   }
@@ -768,19 +769,21 @@ a {
     align-items: left;
     margin: auto;
     margin-left: 630px;
-    margin-top: -190px;
+    margin-top: -100px;
   }
 
   .project-list .start-list {
     width: 200px;
     height: 40px;
     padding: 10px 12px 10px 12px;
+    margin-left: -170px;
   }
 
   .project-list .second-list {
     width: 67px;
     height: 40px;
     padding: 10px 12px 10px 12px;
+    margin-left: -80px;
   }
 
   .project-list .third-list {
@@ -812,9 +815,9 @@ a {
   }
 
   .works-centered .main-works img {
-    width: 684px;
-    height: 448px;
-    margin-left: 0;
+    width: 648px;
+    height: 348px;
+    margin: auto;
   }
 
   .main-works .multi-stories {
@@ -822,26 +825,23 @@ a {
     font-size: 40px;
     font-weight: 400px;
     margin-left: 20px;
+    margin-bottom: 14px;
   }
 
   .main-works p {
     font-size: 20px;
     font-weight: 400px;
-    width: 70%;
+    width: 75%;
     margin-left: 20px;
   }
 
   .print-container {
     display: grid;
     place-items: center;
-    grid-gap: 20px;
+    grid-gap: 1%;
     grid-template-columns: repeat(auto-fit, minmax(359px, 1fr));
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  .print-container > div {
-    grid-column: span 2 !important;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .about-me button {
@@ -1001,7 +1001,7 @@ a {
     flex-direction: column;
     background-image: url("./logos/desktop-illustration-about me.png");
     background-repeat: no-repeat;
-    background-size: 675.39px 352.38px;
+    background-size: 475.39px 352.38px;
     background-position: right center;
   }
 
