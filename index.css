@@ -1102,3 +1102,6 @@ a {
     margin-left: auto;
   }
 }
+.print-data:hover {
+  transform: scale(1.1);
+}
