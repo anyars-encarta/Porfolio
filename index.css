@@ -600,7 +600,6 @@ a {
 
 /* ***************************************************************************************************************** */
 
-/* @media (min-width: 768px) { */
 @media only screen and (min-width: 768px) {
   main {
     display: flex;
@@ -713,8 +712,6 @@ a {
   }
 
   .top-works h2 {
-    /* display: inherit;
-    float: left; */
     font-size: 40px;
     font-weight: 400px;
     margin-left: 5%;
@@ -723,8 +720,6 @@ a {
   }
 
   .top-works hr {
-    /* clear: both;
-    float: right; */
     width: 200%;
     margin-top: -150px;
     margin-right: 40px;
