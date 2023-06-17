@@ -1107,26 +1107,6 @@ a {
   }
 }
 
-.print-data:hover {
-  transform: scale(1.1);
-}
-
-.my-logo {
-  color: #ff6b00;
-  animation-duration: 2s;
-  animation-name: rotateZ;
-}
-
-.rotate div {
-  padding-top: 3em;
-}
-
-@keyframes rotateZ {
-  to {
-    transform: rotateZ(45deg);
-  }
-}
-
 main h1:hover,
 main h2:hover,
 main h3:hover,
@@ -1135,4 +1115,35 @@ main p:hover {
   transform: translate(10);
   transform: scale(1.1);
   transform-origin: left;
+}
+
+.print-data:hover,
+.header li:hover,
+.header img:hover,
+.header h2:hover,
+.headline li:hover,
+.footer li:hover {
+  transform: scale(1.1);
+}
+
+.my-logo {
+  color: #ff6b00;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear 1; /* In place of 1, use infinite for a loop */
+}
+
+@-moz-keyframes spin {
+  100% { -moz-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spin {
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
