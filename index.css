@@ -1130,7 +1130,7 @@ main p:hover {
   color: #ff6b00;
   -webkit-animation: spin 4s linear infinite;
   -moz-animation: spin 4s linear infinite;
-  animation: spin 4s linear 1; /* In place of 1, use infinite for a loop */
+  animation: spin 4s linear infinite; /* Use 1 for a single occurenece and infinite for a loop */
 }
 
 @-moz-keyframes spin {
